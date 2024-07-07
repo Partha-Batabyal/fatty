@@ -21,6 +21,10 @@ body {
   transition: background-color 0.5s ease-in-out;
 }
 :root {
+  /* ***form */
+  --form_bg_color:#041a4d;
+--form_color:#cdcdcd;
+ --form_bg_color2:#1b749d;
   /**** border_color_project */
   --project_all_border_color: red;
   /* ***input */
@@ -52,6 +56,10 @@ body {
   --hover_active_background_color: #0d1b2aca;
 }
 .mycolor {
+  /* ***form */
+  --form_bg_color:#2da842;
+  --form_color:#ffffff;
+  --form_bg_color2:#a7c05c;
   /**** border_color_project */
   --project_all_border_color: rgb(0, 238, 255);
   /* ***input */

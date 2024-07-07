@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="fab-icon.png" type="image/x-icon" />
     <title>_F a t t y_</title>
+    <!--? form::css -->
+    <link rel="stylesheet" href="form.css" />
 
     <!-- ?login::dj.js -->
 
@@ -167,13 +169,146 @@
               <div class="page" id="nav_Services"></div>
             </section>
             <section class="sec sec6">
-              <div class="page" id="nav_Contact"></div>
+              <div class="page" id="nav_Contact">
+                <div class="page_inner_nav">
+                  <div class="container" id="container">
+                    <div class="small_form">
+                      <form
+                        action="https://api.web3forms.com/submit"
+                        method="POST"
+                        class="small_form"
+                      >
+                        <input
+                          type="hidden"
+                          name="access_key"
+                          value="9d9c2978-e2ea-433c-b631-5b0b09e0860c"
+                        />
+                        <h1>Contact Us</h1>
+                        <div class="inputsign">
+                          <input
+                            type="text"
+                            name="user_name "
+                            class="small_form_data small_user"
+                            placeholder="Name"
+                            required
+                          />
+                          <input
+                            type="email"
+                            name="email"
+                            class="small_form_data small_email"
+                            placeholder="Email"
+                            required
+                          />
+                          <input
+                            type="text"
+                            name="subject"
+                            class="small_form_data small_subject"
+                            placeholder="Subject"
+                            required
+                          />
+                          <textarea
+                            name="message"
+                            class="small_form_data small_message"
+                            placeholder="Message"
+                            required
+                          ></textarea>
+                        </div>
+                        <div class="small_form_btn">
+                          <button class="small_btn">Send</button>
+                        </div>
+                      </form>
+                    </div>
+
+                    <div class="form-container sign-up display">
+                      <form>
+                        <h1>Create Account</h1>
+                        <div class="social-icons">
+                          <a href="#" class="icon"
+                            ><i class="fa-brands fa-google-plus-g"></i
+                          ></a>
+                          <a href="#" class="icon"
+                            ><i class="fa-brands fa-facebook-f"></i
+                          ></a>
+                          <a href="#" class="icon"
+                            ><i class="fa-brands fa-github"></i
+                          ></a>
+                          <a href="#" class="icon"
+                            ><i class="fa-brands fa-linkedin-in"></i
+                          ></a>
+                        </div>
+                        <div class="inputsign">
+                          <span>or use your email for registeration</span>
+                          <input type="text" placeholder="Name" />
+                          <input type="email" placeholder="Email" />
+                          <input type="password" placeholder="Password" />
+                        </div>
+                        <div class="btnwraUp">
+                          <button>Sign Up</button>
+                        </div>
+                      </form>
+                    </div>
+
+                    <div class="form-container sign-in display">
+                      <form>
+                        <h1>Sign In</h1>
+                        <div class="social-icons">
+                          <a href="#" class="icon"
+                            ><i class="fa-brands fa-google-plus-g"></i
+                          ></a>
+                          <a href="#" class="icon"
+                            ><i class="fa-brands fa-facebook-f"></i
+                          ></a>
+                          <a href="#" class="icon"
+                            ><i class="fa-brands fa-github"></i
+                          ></a>
+                          <a href="#" class="icon"
+                            ><i class="fa-brands fa-linkedin-in"></i
+                          ></a>
+                        </div>
+                        <div class="inputsign">
+                          <span>or use your email password</span>
+
+                          <input type="email" placeholder="Email" />
+                          <input type="password" placeholder="Password" />
+                        </div>
+                        <div class="btnwra">
+                          <a href="#">Forget Your Password?</a>
+                          <button>Sign In</button>
+                        </div>
+                      </form>
+                    </div>
+
+                    <div class="toggle-container display">
+                      <div class="toggle">
+                        <div class="toggle-panel toggle-left">
+                          <h1>Welcome Back!</h1>
+                          <p>
+                            Enter your personal details to use all of site
+                            features
+                          </p>
+                          <button class="hidden" id="login">Sign In</button>
+                        </div>
+                        <div class="toggle-panel toggle-right">
+                          <h1>Hello, Friend!</h1>
+                          <p>
+                            Register with your personal details to use all of
+                            site features
+                          </p>
+                          <button class="hidden" id="register">Sign Up</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </section>
           </div>
         </div>
       </div>
     </div>
-
+    <!--? form::js -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="form.js"></script>
     <!-- ?swiper::js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="swiper.js"></script>

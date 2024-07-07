@@ -11,10 +11,9 @@ function song() {
     audio1.currentTime = 0;
   }, 4000);
 }
+window.addEventListener("documentLoaded", song);
 
-document.addEventListener("DOMContentLoaded", () => {
-  song();
-});
+
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
