@@ -55,6 +55,7 @@ const tooltips = [
   " QR code",
   " weather",
   " my info",
+  "mess data"
 ];
 const links = [
   "https://your-brain.github.io/LoverBabu/",
@@ -64,6 +65,7 @@ const links = [
   "https://your-brain.github.io/banaloQr/",
   "https://partha-batabyal.github.io/FattyWeather/",
   "https://your-brain.github.io/aboutPartha/",
+  "https://partha-batabyal.github.io/messData/",
 ];
 
 const initSwiperTooltips = () => {
